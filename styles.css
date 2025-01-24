@@ -23,7 +23,7 @@
 
 body {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 
   background-image: url("./img/bg.png");
   background-size: contain;
@@ -160,3 +160,15 @@ footer h1 {
   line-height: 3rem;
   word-break: break-all;
 }
+
+@media (max-width: 480px) {
+  main {
+    width: 90%;
+  }
+
+  form {
+    padding: 2rem;
+  }
+}
+
+
